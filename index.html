@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Routes</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Routes</h1>
+        <form id="routeForm">
+            <div class="form-group">
+                <label for="datum">Datum:</label>
+                <input type="date" id="datum" required>
+            </div>
+            <div class="form-group">
+                <label for="ritnr">Ritnummer:</label>
+                <input type="number" id="ritnr" required>
+            </div>
+            <div class="form-group">
+                <label for="lijn">Lijn:</label>
+                <input type="number" id="lijn" required>
+            </div>
+            <div class="form-group">
+                <label for="omschrijving">Omschrijving:</label>
+                <input type="text" id="omschrijving" required>
+            </div>
+            <div class="form-group">
+                <label for="omloopnr">Omloopnummer:</label>
+                <input type="number" id="omloopnr" required>
+            </div>
+            <div class="form-group">
+                <label for="eerste_tijd">Eerste tijd:</label>
+                <input type="time" id="eerste_tijd" required>
+            </div>
+            <div class="form-group">
+                <label for="van_halte">Van halte:</label>
+                <input type="text" id="van_halte" required>
+            </div>
+            <div class="form-group">
+                <label for="laatste_tijd">Laatste tijd:</label>
+                <input type="time" id="laatste_tijd" required>
+            </div>
+            <div class="form-group">
+                <label for="naar_halte">Naar halte:</label>
+                <input type="text" id="naar_halte" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Toevoegen</button>
+            </div>
+        </form>
+        <table id="routesTable">
+            <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Ritnummer</th>
+                    <th>Lijn</th>
+                    <th>Omschrijving</th>
+                    <th>Omloopnummer</th>
+                    <th>Eerste tijd</th>
+                    <th>Van halte</th>
+                    <th>Laatste tijd</th>
+                    <th>Naar halte</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Routes will be added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
