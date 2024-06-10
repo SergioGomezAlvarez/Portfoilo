@@ -481,3 +481,6 @@ ul {
     color: var(--color);
   }
   
+  .test{
+    width: 60%;
+  }
