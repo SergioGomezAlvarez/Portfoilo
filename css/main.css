@@ -317,6 +317,7 @@ main#app {
   height: 800px;
   padding-top: 50px;
   background-color: #000;
+  font-size: 1.5rem;
 }
 
 /* Mark Boots */
@@ -449,6 +450,8 @@ ul li .descr::before {
   bottom: 0.25rem;
 }
 
+
+
 @media (min-width: 40rem) {
   ul {
     grid-template-columns: 1fr var(--line-w) 1fr;
@@ -534,7 +537,7 @@ ul li .descr::before {
 }
 
 .test02{
-  width: 50%;
+  width: 60%;
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
