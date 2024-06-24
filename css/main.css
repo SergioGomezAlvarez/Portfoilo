@@ -578,6 +578,27 @@ ul li .descr::before {
   -moz-transform: scale(1.1);
 }
 
+.test03 {
+  width: 25%;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+
+
+.test03:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
 @media (min-width: 2100px) {
   .container-device {
     display: flex;
